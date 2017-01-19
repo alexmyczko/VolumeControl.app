@@ -1,2 +1,2 @@
 # VolumeControl.app
-GNUstep VolumeControl
+GNUstep VolumeControl (OSS and ALSA)
