@@ -1,7 +1,7 @@
 include $(GNUSTEP_MAKEFILES)/common.make
 
 PACKAGE_NAME = VolumeControl
-VERSION = 0.5
+VERSION = 0.7
 APP_NAME = VolumeControl
 VolumeControl_MAIN_MODEL_FILE=VolumeControl.gorm
 VolumeControl_APPLICATION_ICON=headphones.tiff
