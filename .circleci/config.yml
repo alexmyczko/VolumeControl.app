@@ -1,0 +1,9 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: gcc:8
+    steps:
+      - run: apt-get update && apt-get install -y libgnustep-gui-dev libasound2-dev gnustep-make
+      - run: git clone https://github.com/alexmyczko/VolumeControl.app.git && cd VolumeControl.app
+      - run: cd VolumeControl.app && gs_make
